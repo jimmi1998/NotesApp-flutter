@@ -15,7 +15,7 @@ A simple notes app with offline and online backup. Uses Nextcloud to store your 
 - AppLock ``` yes, both fingerprint and FaceID works```
 
 ## To-do
-- [ ] 'scrawl' Cloud Sync
+- [ ] 'NotesApp-Flutter' Cloud Sync
 - [ ] Desktop Support
 - [ ] Web Support
 
