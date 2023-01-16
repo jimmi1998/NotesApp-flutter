@@ -59,7 +59,7 @@ class _AccountPageState extends State<AccountPage> {
                                 width: 100,
                               )
                             : Image(
-                                image: AssetImage('images/bnotes.png'),
+                                image: AssetImage('images/notesapp.png'),
                                 width: 100,
                               ),
                       ),

@@ -177,7 +177,7 @@ class _ScreenOneState extends State<ScreenOne> {
         ClipRRect(
           borderRadius: BorderRadius.circular(50),
           child: Image.asset(
-            'images/bnotes.png',
+            'images/notesapp.png',
             height: 80,
           ),
         ),

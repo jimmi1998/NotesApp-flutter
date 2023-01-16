@@ -105,8 +105,8 @@ class _BackupRestorePageState extends State<BackupRestorePage> {
           );
 
           await client.webDav.upload(
-              File(backupPath + '/bnotes.backup').readAsBytesSync(),
-              '/bnotes.backup');
+              File(backupPath + '/notesapp_flutter.backup').readAsBytesSync(),
+              '/notesapp_flutter.backup');
         } on RequestException catch (e, stacktrace) {
           print(e.statusCode);
           print(e.body);
@@ -137,11 +137,8 @@ class _BackupRestorePageState extends State<BackupRestorePage> {
           sharedPreferences.getString('nc_password') ?? '',
         );
 
-        // final downloadedData =
-        //     await client.webDav.downloadStream('/bnotes.backup').then((value) { print(value);});
-        // ignore: unused_local_variable
         final downloadedBytes =
-            client.webDav.download('/bnotes.backup').then((value) {
+            client.webDav.download('/notesapp_flutter.backup').then((value) {
           print(value);
           String restoredString = new String.fromCharCodes(value);
           final parsed =
@@ -171,14 +168,6 @@ class _BackupRestorePageState extends State<BackupRestorePage> {
             ),
           );
         });
-        // final file = File(backupPath + '/bnotes.backup');
-        // if (file.existsSync()) {
-        //   file.deleteSync();
-        // }
-        // final inputStream = file.openWrite();
-        // await inputStream.addStream(downloadedData).then((value) {
-        //   inputStream.close();
-        // });
       } on RequestException catch (e, stacktrace) {
         print(e.statusCode);
         print(e.body);

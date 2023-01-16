@@ -77,7 +77,7 @@ class _AboutPageState extends State<AboutPage> {
                 mainAxisAlignment: MainAxisAlignment.start,
                 children: [
                   Image.asset(
-                    'images/bnotes-transparent.png',
+                    'images/notesapp-transparent.png',
                     height: 100,
                   ),
                   Container(

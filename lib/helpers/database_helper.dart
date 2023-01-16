@@ -4,7 +4,7 @@ import 'package:path/path.dart';
 import 'package:sqflite/sqflite.dart';
 
 class DatabaseHelper {
-  static final _databaseName = 'bnotes.s3db';
+  static final _databaseName = 'notesapp_flutter.s3db';
   static final _databaseVersion = 2;
   static final _databaseOldVersion = 1;
   Database? _database;

@@ -195,7 +195,7 @@ class _ScrawlAppState extends State<ScrawlApp> {
               children: [
                 // SizedBox(width: 50,),
                 Image.asset(
-                  'images/bnotes-transparent.png',
+                  'images/notesapp-transparent.png',
                   height: 50,
                 ),
                 SizedBox(

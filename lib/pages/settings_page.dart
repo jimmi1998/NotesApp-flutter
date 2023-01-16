@@ -189,7 +189,7 @@ class _SettingsPageState extends State<SettingsPage> {
                                                   )
                                                 : Image(
                                                     image: AssetImage(
-                                                        'images/bnotes.png'),
+                                                        'images/notesapp.png'),
                                                     width: 100,
                                                   ),
                                           ),
